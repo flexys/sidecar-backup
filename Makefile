@@ -1,5 +1,5 @@
 DUMMY: build
-VERSION:=0.5
+VERSION:=0.7
 LOCALREG:=localhost:5000
 REMOTEREG:=flexys
 NAME:=sidecar-backup
