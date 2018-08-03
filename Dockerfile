@@ -6,5 +6,8 @@ RUN apk update && apk upgrade && apk --update add \
 
 COPY supervisord.conf /etc
 COPY snapshot_watcher.sh /
+COPY snapshot_restore.sh /
+COPY snapshot_mangle.sh /
+COPY kubectl /
 
 CMD ["/usr/bin/supervisord","-n"]

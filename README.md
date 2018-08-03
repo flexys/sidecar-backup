@@ -8,6 +8,8 @@ and dumps them in the backup tree.
 Later, an actual disk snapshot happens out of band so as to 
 make sure there are several copies of the data. Probably.
 
+... Oh. Yeah. Don't add kubectl to the git tree. 
+That would be tiresome.
 
 
 What's that localhost:5000 business? Aren't they a metal band?
